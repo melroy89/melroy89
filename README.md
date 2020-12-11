@@ -43,5 +43,5 @@
  - The earth is NOT flat
  - There is NO dark side of the moon
  - SARS-CoV-2 is real
- - Compiling code on a single core takes longer than a threadripper CPU?
+ - Compiling code on a single core processor takes longer than on an AMD threadripper CPU?
 
