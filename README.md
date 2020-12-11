@@ -18,7 +18,6 @@
 
 [![](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/melroyvandenberg)
 [![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/melroy89#3134)
-[![](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:&#109;&#101;&#108;&#114;&#111;&#121;&#56;&#57;&#64;&#112;&#109;&#46;&#109;&#101;)
 
 ### 💡 Knowledge area 
 
@@ -44,4 +43,3 @@
  - There is NO dark side of the moon
  - SARS-CoV-2 is real
  - Compiling code on a single core processor takes longer than on an AMD threadripper CPU?
-
