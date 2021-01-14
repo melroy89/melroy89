@@ -39,7 +39,6 @@
 ... and way more ...
 
 ### 🤔 Did you know?
- - The earth is NOT flat
- - There is NO dark side of the moon
+ - The earth is _NOT_ flat
  - SARS-CoV-2 is real
  - Compiling code on a single core processor takes longer than on an AMD threadripper CPU?
