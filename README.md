@@ -14,10 +14,10 @@
 
 **Continuously learning 📕...**
 
-### 📫 Ask me about anything
+### 📫 Ask me about anything, via:
 
-[![](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/melroyvandenberg)
-[![](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/melroy89#3134)
+[![Matrix](https://img.shields.io/badge/Matrix-0dbd8b?style=for-the-badge&logo=matrix&logoColor=white)](https://matrix.to/#/@melroy:melroy.org)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/melroyvandenberg)
 
 ### 💡 Knowledge area 
 
