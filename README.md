@@ -8,7 +8,7 @@
 
 ### 🔭 I’m currently working on / be free to collaborate on:
 
-* [DBrowser](https://gitlab.melroy.org/dwww/dbrowser): Decentralized Web Browser
+* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser
 * [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed
 
