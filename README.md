@@ -37,8 +37,3 @@
 ![](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ... and way more ...
-
-### 🤔 Did you know?
- - The earth is _NOT_ flat
- - SARS-CoV-2 is real
- - Compiling code on a single core processor takes longer than on an AMD threadripper CPU?
