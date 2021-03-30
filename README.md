@@ -1,12 +1,14 @@
 ## Melroy van den Berg here 👋
 
-[![](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
+[![My GitLab Server!](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
+[![My Dot files](https://img.shields.io/badge/Dot%20files-orange?style=for-the-badge&logo=files)](https://gitlab.melroy.org/melroy/dotfiles)
+[![Sourcehut](https://img.shields.io/badge/Sourcehut-gray?style=for-the-badge&logo=circle)](https://sr.ht/~melroy/)
+
+**Social:**
+[![My Blog](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/melroysblog)
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melroyvandenberg/)
-[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/melroysblog)
-[![Running Linux Mint](https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white)](https://gitlab.melroy.org/melroy/dotfiles)
 
-
-### 🔭 I’m currently working on / be free to collaborate on:
+### 🔭 I’m currently working on / be free to collaborate on 🚀:
 
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser
 * [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager
@@ -14,7 +16,7 @@
 
 **Continuously learning 📕...**
 
-### 📫 Ask me about anything, via:
+### 📫 Chat:
 
 [![Matrix](https://img.shields.io/badge/Matrix-0dbd8b?style=for-the-badge&logo=matrix&logoColor=white)](https://matrix.to/#/@melroy:melroy.org)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/melroyvandenberg)
