@@ -9,9 +9,9 @@
 
 ### 🔭 I’m currently working on / be free to collaborate on 🚀:
 
-* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser
-* [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager
-* [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed
+* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
+* [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager (**creator**)
+* [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
 
 **Continuously learning 📕...**
 
@@ -19,6 +19,14 @@
 
 * [GitHub Sponsors](https://github.com/sponsors/danger89)
 * [Patreon](https://www.patreon.com/Melroy)
+
+### 💼 Contributing to:
+
+* [fake-useragent](https://github.com/danger89/fake-useragent): Fake user agent for Python (**maintainer**)
+* [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
+* [KiCad](https://www.kicad.org/): Open-source PCD design application (**contributor**)
+* [0 A.D.](https://play0ad.com/): Open-source free game (**contributor**)
+* [pgConfig](https://www.pgconfig.org): PostgreSQL configure tool (**contributor**)
 
 ### 📫 Chat:
 
