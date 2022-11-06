@@ -22,7 +22,7 @@
 
 ### 💼 Contributing to:
 
-* [fake-useragent](https://github.com/danger89/fake-useragent): Fake user agent for Python (**maintainer**)
+* [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
 * [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
 * [KiCad](https://www.kicad.org/): Open-source PCD design application (**contributor**)
 * [0 A.D.](https://play0ad.com/): Open-source free game (**contributor**)
