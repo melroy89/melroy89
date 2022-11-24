@@ -1,4 +1,4 @@
-## Melroy van den Berg here 👋
+## Melroy van den Berg ([PGP](https://gist.github.com/danger89/a8ec8d5d30a9ed2d7480046dcba4b375)) here 👋
 
 [![My GitLab Server!](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
 [![Melroy's Blog](https://img.shields.io/badge/Blog-orange?style=for-the-badge&logo=wordpress&logoColor=white)](https://blog.melroy.org)
