@@ -8,26 +8,26 @@
 [![My Dot files](https://img.shields.io/badge/Dot%20Files-green?style=for-the-badge&logo=Linux&logoColor=white)](https://gitlab.melroy.org/melroy/dotfiles)
 [![Sourcehut](https://img.shields.io/badge/Sourcehut-gray?style=for-the-badge&logo=circle&logoColor=white)](https://sr.ht/~melroy/)
 
-### 🔭 I’m currently working on / be free to collaborate on 🚀:
+### 🔭 My own open-source projects / be free to help me 🚀:
 
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
 
-**Continuously learning 📕...**
+### 💼 Contributing to:
+
+* [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
+* [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
+* [Bitcoin Cash Node](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node): Bitcoin Cash Full node (**contributor**)
+* [Electron Cash](https://github.com/Electron-Cash/Electron-Cash): Bitcoin Cash Wallet  (**contributor**)
+* [KiCad](https://www.kicad.org/): Open-source PCD design application (**contributor**)
+* [0 A.D.](https://play0ad.com/): Open-source free game (**contributor**)
+* [pgConfig](https://www.pgconfig.org): PostgreSQL configure tool (**contributor**)
 
 ### ❤️ Sponsor me:
 
 * [GitHub Sponsors](https://github.com/sponsors/danger89)
 * [Patreon](https://www.patreon.com/Melroy)
-
-### 💼 Contributing to:
-
-* [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
-* [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
-* [KiCad](https://www.kicad.org/): Open-source PCD design application (**contributor**)
-* [0 A.D.](https://play0ad.com/): Open-source free game (**contributor**)
-* [pgConfig](https://www.pgconfig.org): PostgreSQL configure tool (**contributor**)
 
 ### 📫 Chat:
 
