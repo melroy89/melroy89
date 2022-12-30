@@ -13,6 +13,7 @@
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
+* [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer
 
 ### 💼 Contributing to:
 
