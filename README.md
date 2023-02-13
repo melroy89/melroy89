@@ -28,7 +28,7 @@
 
 ### ❤️ Sponsor me:
 
-* [GitHub Sponsors](https://github.com/sponsors/danger89)
+* [GitHub Sponsors](https://github.com/sponsors/melroy89)
 * [Patreon](https://www.patreon.com/Melroy)
 
 ### 📫 Chat:
