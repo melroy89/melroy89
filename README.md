@@ -14,7 +14,7 @@
 * [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager (**creator**)
 * [Automated Bots](https://github.com/automated-bots): Different kind of Telegram bots that could make your life easier (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
-* [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer
+* [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
 
 ### 💼 Contributing to:
 
