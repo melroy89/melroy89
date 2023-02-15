@@ -1,7 +1,7 @@
 ## Melroy van den Berg ([PGP](https://gist.github.com/danger89/a8ec8d5d30a9ed2d7480046dcba4b375)) here 👋
 
 [![My GitLab Server!](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
-[![Melroy's Blog](https://img.shields.io/badge/Blog-orange?style=for-the-badge&logo=wordpress&logoColor=white)](https://blog.melroy.org)
+[![Melroy's Blog](https://img.shields.io/badge/Blog-orange?style=for-the-badge&logo=hugo&logoColor=white)](https://blog.melroy.org)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/RealMelroy)
 [![Mastodon](https://img.shields.io/badge/Mastodon-5C4DE4?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.melroy.org/@melroy)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melroyvandenberg/)
