@@ -1,8 +1,9 @@
 ## Melroy van den Berg ([PGP](https://gist.github.com/melroy89/a8ec8d5d30a9ed2d7480046dcba4b375)) here 👋
 
-[![My GitLab Server!](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
+[![My GitLab Server!](https://img.shields.io/badge/GitLab-DB4128?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
 [![Melroy's Blog](https://img.shields.io/badge/Blog-orange?style=for-the-badge&logo=hugo&logoColor=white)](https://blog.melroy.org)
-[![Mastodon](https://img.shields.io/badge/Mastodon-5C4DE4?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.melroy.org/@melroy)
+[![Mastodon](https://img.shields.io/badge/Mastodon-5D51E8?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.melroy.org/@melroy)
+[![/kbin](https://img.shields.io/badge/Kbin-5623A0?style=for-the-badge&logo=slashdot&logoColor=white)](https://kbin.melroy.org/u/melroy)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/melroyvandenberg/)
 [![My Dot files](https://img.shields.io/badge/Dot%20Files-green?style=for-the-badge&logo=Linux&logoColor=white)](https://gitlab.melroy.org/melroy/dotfiles)
 [![Sourcehut](https://img.shields.io/badge/Sourcehut-gray?style=for-the-badge&logo=circle&logoColor=white)](https://sr.ht/~melroy/)
@@ -17,6 +18,7 @@
 
 ### 💼 Contributing to:
 
+* [/kbin](https://codeberg.org/Kbin/kbin-core/): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**contributor**)
 * [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
 * [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
 * [Bitcoin Cash Node](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node): Bitcoin Cash Full node (**contributor**)
