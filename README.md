@@ -37,6 +37,12 @@
 [![Matrix](https://img.shields.io/badge/Matrix-0dbd8b?style=for-the-badge&logo=matrix&logoColor=white)](https://matrix.to/#/@melroy:melroy.org)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/melroyvandenberg)
 
+## 📊 GitHub Stats:
+
+_Note:_ This is chart is excluding GitLab, Codeberg, Sourcehut, Gitea, .. contributions.
+
+![Profile stats](https://github-readme-stats.vercel.app/api?username=melroy89&show_icons=true&theme=dark&hide_progress=false)
+
 ### 💡 Knowledge area 
 
 ![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
