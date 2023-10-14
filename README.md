@@ -18,7 +18,7 @@
 
 ### 💼 Contributing to:
 
-* [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub, fork of Kbin (**contributor**)
+* [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub, fork of Kbin (**contributor/owner**)
 * [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
 * [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
 * [Bitcoin Cash Node](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node): Bitcoin Cash Full node (**contributor**)
