@@ -23,7 +23,10 @@
 
 * [fake-useragent](https://github.com/fake-useragent/fake-useragent): Fake user agent for Python (**maintainer**)
 * [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
+* [Void-Packages](https://github.com/void-linux/void-packages): Void Linux packages (**contributor**)
+* [BlikVM](https://github.com/ThomasVon2021/blikvm): KVM-over-IP (**contributor**)
 * [Bitcoin Cash Node](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node): Bitcoin Cash Full node (**contributor**)
+* [CodeIgniter](https://github.com/codeigniter4/CodeIgniter4): Supe fast & simple PHP framework (**contributor**)
 * [Electron Cash](https://github.com/Electron-Cash/Electron-Cash): Bitcoin Cash Wallet  (**contributor**)
 * [KiCad](https://www.kicad.org/): Open-source PCD design application (**contributor**)
 * [0 A.D.](https://play0ad.com/): Open-source free game (**contributor**)
