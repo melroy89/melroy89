@@ -11,11 +11,12 @@
 ### 🔭 My own open-source projects / be free to help me 🚀:
 
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
-* [WineGUI](https://gitlab.melroy.org/melroy/winegui): A user-friendly WINE manager (**creator**)
-* [RamBam](https://gitlab.melroy.org/melroy/rambam): Stress-test your website/API (**creator**)
+* [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub, fork of Kbin (**contributor/creator**)
 * [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
+* [XFCE VDI](https://github.com/melroy89/xfcevdi): XFCE4 VDI with X2Go server, all within a single Docker Image (**creator**)
 * [Automated Bots](https://github.com/automated-bots): Different kind of Telegram bots that could make your life easier (**creator**)
+* [RamBam](https://github.com/melroy89/rambam): Stress-test your website/API (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
 
 ### 💼 Contributing to:
