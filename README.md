@@ -25,6 +25,8 @@
 * [MXE](https://github.com/mxe/mxe): Cross-platform build environment (**contributor**)
 * [Fastify](https://github.com/fastify/fastify): Fast and low overhead web framework for Node.js (**contributor**)
 * [Valkey](https://github.com/valkey-io/valkey): Valkey is an open source (BSD) high-performance key/value datastore (**contributor**)
+* [NSD](https://github.com/NLnetLabs/nsd): An authoritative DNS name server (NSD=Name Server Daemon) (**contributor**)
+* [Unbound](https://github.com/NLnetLabs/unbound): Unbound is a validating, recursive and caching DNS resolver (**contributor**)
 * [Void-Packages](https://github.com/void-linux/void-packages): [Void Linux](https://voidlinux.org/) packages for xbps (**contributor**)
 * [BlikVM](https://github.com/ThomasVon2021/blikvm): KVM-over-IP (**contributor**)
 * [CodeIgniter4](https://github.com/codeigniter4/CodeIgniter4): Super fast, powerful & simple PHP framework (**contributor**)
