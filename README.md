@@ -39,7 +39,10 @@
 ### ❤️ Sponsor me:
 
 * [GitHub Sponsors](https://github.com/sponsors/melroy89)
+* [Buy me a coffee](https://www.buymeacoffee.com/melroy)
+* [Ko-fi](https://ko-fi.com/melroy)
 * [Patreon](https://www.patreon.com/Melroy)
+* [Liberapay](https://liberapay.com/melroy)
 
 ### 📫 Chat:
 
