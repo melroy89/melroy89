@@ -10,9 +10,9 @@
 
 ### 🔭 My own open-source projects / be free to help me 🚀:
 
-* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**creator/maintainer**)
+* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
 * [XFCE VDI](https://github.com/melroy89/xfcevdi): XFCE4 VDI with X2Go server, all within a single Docker Image (**creator**)
 * [Automated Bots](https://github.com/automated-bots): Different kind of Telegram bots that could make your life easier (**creator**)
