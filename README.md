@@ -17,8 +17,11 @@
 * [Freedom Names](https://github.com/FreedomNames/FreedomNames): Decentralized DNS alternative  (**creator**)
 * [XFCE VDI](https://github.com/melroy89/xfcevdi): XFCE4 VDI with X2Go server, all within a single Docker Image (**creator**)
 * [Automated Bots](https://github.com/automated-bots): Different kind of Telegram bots that could make your life easier (**creator**)
-* [RamBam](https://github.com/melroy89/rambam): Stress-test your website/API (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
+
+### 🗎 Code/config snippets
+
+- [My public GitLab snippets](https://gitlab.melroy.org/users/melroy/snippets)
 
 ### 💼 Contributing to:
 
