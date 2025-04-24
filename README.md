@@ -15,6 +15,7 @@
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
 * [Freedom Names](https://github.com/FreedomNames/FreedomNames): Decentralized DNS alternative  (**creator**)
+* [FediResolve](https://github.com/melroy89/FediResolve): Fediverse CLI command tool (**creator**)
 * [XFCE VDI](https://github.com/melroy89/xfcevdi): XFCE4 VDI with X2Go server, all within a single Docker Image (**creator**)
 * [Automated Bots](https://github.com/automated-bots): Different kind of Telegram bots that could make your life easier (**creator**)
 * [Nextcloud file drop](https://gitlab.melroy.org/melroy/nextcloud-file-drop): Easy to use drag & drop file upload to Nextcloud with maximum speed (**creator**)
