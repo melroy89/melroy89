@@ -8,7 +8,7 @@
 [![My Dot files](https://img.shields.io/badge/Dot%20Files-green?style=for-the-badge&logo=Linux&logoColor=white)](https://gitlab.melroy.org/melroy/dotfiles)
 [![Sourcehut](https://img.shields.io/badge/Sourcehut-gray?style=for-the-badge&logo=circle&logoColor=white)](https://sr.ht/~melroy/)
 
-### 🔭 My own open-source projects / be free to help me 🚀:
+### 🔭 My own open-source projects / feel free to help me 🚀:
 
 * [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**creator/maintainer**)
