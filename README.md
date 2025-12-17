@@ -10,8 +10,8 @@
 
 ### 🔭 My own open-source projects / feel free to help me 🚀:
 
-* [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**creator/maintainer**)
+* [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [BCH Explorer](https://explorer.melroy.org): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
 * [Freedom Names](https://github.com/FreedomNames/FreedomNames): Decentralized DNS alternative  (**creator**)
