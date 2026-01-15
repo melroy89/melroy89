@@ -12,8 +12,8 @@
 
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**creator/maintainer**)
 * [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
-* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [BCH Explorer](https://bchexplorer.cash): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
+* [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [Freedom Names](https://github.com/FreedomNames/FreedomNames): Decentralized DNS alternative  (**creator**)
 * [FediResolve](https://github.com/melroy89/FediResolve): Fediverse CLI command tool (**creator**)
 * [XFCE VDI](https://github.com/melroy89/xfcevdi): XFCE4 VDI with X2Go server, all within a single Docker Image (**creator**)
