@@ -90,7 +90,7 @@ _Note:_ This is chart is excluding GitLab, Codeberg, Sourcehut, Gitea, .. contri
 ![](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![](https://img.shields.io/badge/Mumble-000000?style=for-the-badge&logo=mumble&logoColor=white)
-![](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![](https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=black)
 ![](https://img.shields.io/badge/Artifactory-40BE46?style=for-the-badge&logo=jfrog&logoColor=black)
 ![](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
