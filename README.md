@@ -58,7 +58,7 @@
 
 _Note:_ This is chart is excluding GitLab, Codeberg, Sourcehut, Gitea, .. contributions.
 
-![Melroy's profile stats](https://github-readme-stats.vercel.app/api?username=melroy89&count_private=true&show_icons=true&theme=dark&hide_progress=false)
+![Melroy's profile stats](https://kayan-github-profile-projects-featu.vercel.app/api?username=melroy89&count_private=true&show_icons=true&theme=dark&hide_progress=false)
 
 ### 💡 Knowledge area 
 
