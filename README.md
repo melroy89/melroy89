@@ -13,6 +13,7 @@
 * [Mbin](https://github.com/MbinOrg/mbin): Federated Reddit alternative and microblogging platform built on top of ActivityPub (**creator/maintainer**)
 * [WineGUI](https://github.com/winegui/WineGUI): A user-friendly WINE manager (**creator**)
 * [BCH Explorer](https://bchexplorer.cash): Bitcoin Cash Blockchain / Mempool Explorer (**creator**)
+* [Fastify MariaDB](https://github.com/melroy89/fastify-mariadb): Fastify MariaDB connector plugin, forked from mysql (**creator**)
 * [LibreWeb Browser](https://gitlab.melroy.org/libreweb/browser): Decentralized Web-Browser (**creator**)
 * [Freedom Names](https://github.com/FreedomNames/FreedomNames): Decentralized DNS alternative  (**creator**)
 * [FediResolve](https://github.com/melroy89/FediResolve): Fediverse CLI command tool (**creator**)
