@@ -1,19 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 1280 407.273" fill="none" role="img" aria-labelledby="title description">
   <title id="title">Melroy van den Berg — open-source developer and maintainer</title>
-  <desc id="description">Ivory lettering on charcoal beside a copper M monogram drawn into a branching commit graph. Commits start at the M, split at shared junctions and travel outward to Mbin, WineGUI, Fastify MariaDB, BCH Explorer, LibreWeb and Angie Guardian.</desc>
+  <desc id="description">Ivory lettering on charcoal beside a copper M monogram drawn into a branching commit graph. Commits start at the M, split at shared junctions, pause briefly at project nodes and travel through Mbin, WineGUI, Fastify MariaDB, BCH Explorer, LibreWeb and Angie Guardian. Open branches carry commits beyond the banner, representing wider open-source contributions.</desc>
   <defs>
     <clipPath id="frame"><rect width="1280" height="407.273" rx="8"/></clipPath>
     <path id="monogram" d="M838 250V122L936 218 1034 122V250"/>
     <path id="mbin-branch" d="M1034 122V92Q1034 64 1062 64H1280"/>
     <path id="wine-branch" d="M1034 250Q1034 282 1066 282H1280"/>
-    <path id="fastify-branch" d="M838 250V276Q838 308 806 308H674"/>
+    <path id="fastify-branch" d="M838 250V276Q838 308 806 308H674Q646 308 646 336V440"/>
     <!-- Complete outward routes share geometry and speed, so their packets split at junctions. -->
-    <path id="flow-bch" d="M936 218L838 122V108Q838 80 810 80H772Q744 80 744 52V40"/>
+    <path id="flow-bch" d="M936 218L838 122V108Q838 80 810 80H772Q744 80 744 52V-20"/>
     <path id="flow-libreweb" d="M936 218L838 122V108Q838 80 810 80H772Q744 80 744 52V178Q744 206 772 206H790"/>
-    <path id="flow-fastify" d="M936 218L838 122V276Q838 308 806 308H780"/>
-    <path id="flow-mbin" d="M936 218L1034 122V92Q1034 64 1062 64H1100"/>
-    <path id="flow-winegui" d="M936 218L1034 122V250Q1034 282 1066 282H1144"/>
-    <path id="flow-angie" d="M936 218L1034 122V250Q1034 282 1066 282H1144V316Q1144 344 1172 344H1216"/>
+    <path id="flow-fastify" d="M936 218L838 122V276Q838 308 806 308H674Q646 308 646 336V440"/>
+    <path id="flow-mbin" d="M936 218L1034 122V92Q1034 64 1062 64H1300"/>
+    <path id="flow-winegui" d="M936 218L1034 122V250Q1034 282 1066 282H1300"/>
+    <path id="flow-angie" d="M936 218L1034 122V250Q1034 282 1066 282H1144V316Q1144 344 1172 344H1300"/>
+    <path id="flow-upstream" d="M936 218L1034 122V92Q1034 64 1062 64H1156Q1184 64 1184 36V-20"/>
+    <path id="flow-downstream" d="M936 218V380Q936 408 964 408Q984 408 984 428V440"/>
     <style>
       :root { --bg: #1b1c1a; --fg: #f1eee6; --muted: #acaea5; --line: #575a51; --accent: #ff805c; }
       .sans { font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
@@ -66,62 +68,95 @@
       <circle cx="936" cy="218" r="7"/>
       <circle cx="1034" cy="122" r="7"/>
     </g>
-    <!-- One eight-second emission cycle, travelling at 110 viewBox units per second.
-         Shared route prefixes overlap until a real fork; each destination lights on arrival. -->
+    <!-- One nine-second emission cycle, travelling at 110 viewBox units per second.
+         Project nodes absorb commits for 650ms before release; shared routes pause together.
+         Open routes finish
+         outside the clip; only the LibreWeb branch ends inside the banner. -->
     <g class="flow-animation">
       <circle id="commit-bch" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.331917;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.8295875;0.8295875;1;1" keyTimes="0.0000000;0.2950372;0.3672595;0.4278655;1">
           <mpath href="#flow-bch"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.331917;0.371917;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.4278655;0.4634211;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.2950372;0.3311484;0.3672595;1"/>
       </circle>
-      <circle cx="744" cy="40" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.306917;0.331917;0.381917;0.431917;1"/>
+      <circle cx="744" cy="40" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2728150;0.2950372;0.3672595;0.4028150;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.2950372;0.3311484;0.4028150;1"/>
       </circle>
       <circle id="commit-libreweb" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.533565;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1;1" keyTimes="0.0000000;0.4742801;0.5465023;1">
           <mpath href="#flow-libreweb"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.533565;0.573565;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.5465023;0.5820579;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.4742801;0.5103912;0.5465023;1"/>
       </circle>
-      <circle cx="790" cy="206" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.508565;0.533565;0.583565;0.633565;1"/>
+      <circle cx="790" cy="206" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4520579;0.4742801;0.5465023;0.5820579;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.4742801;0.5103912;0.5820579;1"/>
       </circle>
       <circle id="commit-fastify" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.419465;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.5910043;0.5910043;1;1" keyTimes="0.0000000;0.3728580;0.4450802;0.7031109;1">
           <mpath href="#flow-fastify"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.419465;0.459465;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.7031109;0.7386665;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.3728580;0.4089691;0.4450802;1"/>
       </circle>
-      <circle cx="780" cy="308" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.394465;0.419465;0.469465;0.519465;1"/>
+      <circle cx="780" cy="308" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3506357;0.3728580;0.4450802;0.4806357;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.3728580;0.4089691;0.4806357;1"/>
       </circle>
       <circle id="commit-mbin" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.284814;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.5561833;0.5561833;1;1" keyTimes="0.0000000;0.2531682;0.3253904;0.5274106;1">
           <mpath href="#flow-mbin"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.284814;0.324814;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.5274106;0.5629661;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.2531682;0.2892793;0.3253904;1"/>
       </circle>
-      <circle cx="1100" cy="64" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.259814;0.284814;0.334814;0.384814;1"/>
+      <circle cx="1100" cy="64" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.2309460;0.2531682;0.3253904;0.3609460;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.2531682;0.2892793;0.3609460;1"/>
       </circle>
       <circle id="commit-winegui" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.449011;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.7169449;0.7169449;1;1" keyTimes="0.0000000;0.3991206;0.4713428;0.6289186;1">
           <mpath href="#flow-winegui"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.449011;0.489011;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.6289186;0.6644741;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.3991206;0.4352317;0.4713428;1"/>
       </circle>
-      <circle cx="1144" cy="282" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.424011;0.449011;0.499011;0.549011;1"/>
+      <circle cx="1144" cy="282" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3768984;0.3991206;0.4713428;0.5068984;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.3991206;0.4352317;0.5068984;1"/>
       </circle>
       <circle id="commit-angie" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
-        <animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.589295;1">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.6557294;0.6557294;0.8605994;0.8605994;1;1" keyTimes="0.0000000;0.3991206;0.4713428;0.5960404;0.6682626;0.7531111;1">
           <mpath href="#flow-angie"/>
         </animateMotion>
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.025;0.589295;0.629295;1"/>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.7531111;0.7886667;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.3991206;0.4352317;0.4713428;0.5960404;0.6321515;0.6682626;1"/>
       </circle>
-      <circle cx="1216" cy="344" r="7" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
-        <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.564295;0.589295;0.639295;0.689295;1"/>
+      <circle cx="1216" cy="344" r="7" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5738181;0.5960404;0.6682626;0.7038181;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="7;7;9;7;7" keyTimes="0;0.5960404;0.6321515;0.7038181;1"/>
+      </circle>
+      <circle id="commit-upstream" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0.6141741;0.6141741;1;1" keyTimes="0.0000000;0.2531682;0.3253904;0.4844313;1">
+          <mpath href="#flow-upstream"/>
+        </animateMotion>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.4844313;0.5199868;1"/>
+        <animate attributeName="r" dur="9s" repeatCount="indefinite" values="4.5;4.5;1.5;4.5;4.5" keyTimes="0.0000000;0.2531682;0.2892793;0.3253904;1"/>
+      </circle>
+      <circle id="commit-downstream" r="4.5" fill="var(--fg)" stroke="var(--accent)" stroke-width="1.5" opacity="0">
+        <animateMotion dur="9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0.0000000;0.2544598;1">
+          <mpath href="#flow-downstream"/>
+        </animateMotion>
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0.0000000;0.0222222;0.2544598;0.2900154;1"/>
+      </circle>
+      <circle cx="1224" cy="64" r="5" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.4284207;0.4506429;0.4950874;0.5395318;1"/>
+      </circle>
+      <circle cx="936" cy="372" r="5" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0">
+        <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1333333;0.1555556;0.2000000;0.2444444;1"/>
       </circle>
     </g>
     <g class="sans ink" font-size="20" font-weight="600">
