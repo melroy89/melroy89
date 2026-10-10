@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 1280 407.273" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Melroy van den Berg — open-source developer and maintainer</title>
+  <desc id="description">Ivory lettering on charcoal beside a copper M monogram drawn into a branching commit graph. The graph features Mbin, WineGUI, Fastify MariaDB, BCH Explorer, LibreWeb and Angie Guardian.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1280" height="407.273" rx="8"/></clipPath>
+    <path id="monogram" d="M838 250V122L936 218 1034 122V250"/>
+    <path id="mbin-branch" d="M1034 122V92Q1034 64 1062 64H1280"/>
+    <path id="wine-branch" d="M1034 250Q1034 282 1066 282H1280"/>
+    <path id="fastify-branch" d="M838 250V276Q838 308 806 308H674"/>
+    <style>
+      :root { --bg: #1b1c1a; --fg: #f1eee6; --muted: #acaea5; --line: #575a51; --accent: #ff805c; }
+      .sans { font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .mono { font-family: 'DejaVu Sans Mono', Consolas, monospace; }
+      .ink { fill: var(--fg); }
+      .muted { fill: var(--muted); }
+      .branch { stroke: var(--line); stroke-width: 2; }
+      .node { fill: var(--bg); stroke: var(--fg); stroke-width: 2; }
+      .pulse { stroke: var(--accent); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 18 182; animation: travel 5s linear infinite; }
+      .pulse.second { animation-delay: -1.7s; }
+      .pulse.third { animation-delay: -3.4s; }
+      .trace { stroke: var(--fg); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 12 588; animation: trace 10s linear infinite; }
+      @keyframes travel { to { stroke-dashoffset: -200; } }
+      @keyframes trace { to { stroke-dashoffset: -600; } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .trace { animation: none; } .trace { display: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="var(--bg)" d="M0 0h1280v407.273H0z"/>
+
+    <!-- Editorial identity: the name carries the hierarchy, with no UI chrome. -->
+    <g class="sans">
+      <text x="52" y="55" class="mono muted" font-size="18" letter-spacing="1"><tspan fill="var(--accent)">/</tspan> melroy89</text>
+      <text x="46" y="165" class="ink" font-size="112" font-weight="700" letter-spacing="-5">Melroy<tspan fill="var(--accent)">.</tspan></text>
+      <text x="52" y="223" class="ink" font-size="48" letter-spacing="-1.8">van den Berg</text>
+      <text x="54" y="274" class="muted" font-size="23">Open-source Developer. Maintainer. Tinkerer.</text>
+      <path d="M54 323H550" stroke="var(--line)" stroke-opacity=".65"/>
+      <text x="54" y="357" class="mono ink" font-size="20.2">Open source</text>
+      <text x="208" y="357" class="mono muted" font-size="20.2">/</text>
+      <text x="234" y="357" class="mono ink" font-size="20.2">Linux</text>
+      <text x="308" y="357" class="mono muted" font-size="20.2">/</text>
+      <text x="334" y="357" class="mono ink" font-size="20.2">Fediverse</text>
+    </g>
+
+    <!-- The M is itself a branch: a personal mark with a commit-graph structure. -->
+    <g class="branch" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M744-20V52Q744 80 772 80H810Q838 80 838 108V122"/>
+      <path d="M744 52V178Q744 206 772 206H790"/>
+      <path d="M1184-20V36Q1184 64 1156 64"/>
+      <path d="M1144 282V316Q1144 344 1172 344H1280"/>
+      <path d="M936 218V380Q936 408 964 408"/>
+      <use href="#mbin-branch"/>
+      <use href="#wine-branch"/>
+      <use href="#fastify-branch"/>
+    </g>
+    <g>
+      <path class="pulse" d="M1034 122V92Q1034 64 1062 64H1280" pathLength="200"/>
+      <path class="pulse second" d="M1034 250Q1034 282 1066 282H1280" pathLength="200"/>
+      <path class="pulse third" d="M838 250V276Q838 308 806 308H674" pathLength="200"/>
+    </g>
+    <use href="#monogram" stroke="var(--accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path class="trace" d="M838 250V122L936 218 1034 122V250" pathLength="600"/>
+
+    <g class="node">
+      <circle cx="744" cy="40" r="7"/>
+      <circle cx="790" cy="206" r="7"/>
+      <circle cx="1100" cy="64" r="7"/>
+      <circle cx="1224" cy="64" r="5"/>
+      <circle cx="1144" cy="282" r="7"/>
+      <circle cx="780" cy="308" r="7"/>
+      <circle cx="936" cy="372" r="5"/>
+      <circle cx="1216" cy="344" r="7"/>
+    </g>
+    <g fill="var(--bg)" stroke="var(--accent)" stroke-width="3">
+      <circle cx="838" cy="122" r="7"/>
+      <circle cx="936" cy="218" r="7"/>
+      <circle cx="1034" cy="122" r="7"/>
+    </g>
+    <g class="sans ink" font-size="20" font-weight="600">
+      <text x="1100" y="103" text-anchor="middle">Mbin</text>
+      <text x="1144" y="260" text-anchor="middle">WineGUI</text>
+      <text x="780" y="346" text-anchor="middle">Fastify MariaDB</text>
+      <text x="766" y="47">BCH Explorer</text>
+      <text x="790" y="244" text-anchor="end">LibreWeb</text>
+      <text x="1216" y="382" text-anchor="end">Angie Guardian</text>
+    </g>
+    <rect x=".5" y=".5" width="1279" height="406.273" rx="7.5" stroke="var(--fg)" stroke-opacity=".08"/>
+  </g>
+</svg>

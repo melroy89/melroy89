@@ -1,4 +1,6 @@
-## Melroy van den Berg ([PGP](https://gist.github.com/melroy89/a8ec8d5d30a9ed2d7480046dcba4b375)) here 👋
+![Melroy van den Berg — open source, Linux and the Fediverse](banner.svg)
+
+PGP key: [view key](https://gist.github.com/melroy89/a8ec8d5d30a9ed2d7480046dcba4b375)
 
 [![My GitLab Server!](https://img.shields.io/badge/GitLab-DB4128?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.melroy.org/melroy)
 [![Melroy's Blog](https://img.shields.io/badge/Blog-orange?style=for-the-badge&logo=hugo&logoColor=white)](https://blog.melroy.org)
