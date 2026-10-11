@@ -33,7 +33,7 @@
     <!-- Editorial identity: the name carries the hierarchy, with no UI chrome. -->
     <g class="sans">
       <text x="52" y="55" class="mono muted" font-size="18" letter-spacing="1"><tspan fill="var(--accent)">/</tspan> melroy89</text>
-      <text x="46" y="165" class="ink" font-size="112" font-weight="700" letter-spacing="-5">Melroy<tspan fill="var(--accent)">.</tspan></text>
+      <text x="46" y="165" class="ink" font-size="112" font-weight="700" letter-spacing="-5">Melroy</text>
       <text x="52" y="223" class="ink" font-size="48" letter-spacing="-1.8">van den Berg</text>
       <text x="54" y="274" class="muted" font-size="23">Open-source Developer. Maintainer. Tinkerer.</text>
       <path d="M54 323H550" stroke="var(--line)" stroke-opacity=".65"/>
