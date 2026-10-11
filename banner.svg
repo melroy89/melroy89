@@ -24,6 +24,11 @@
       .muted { fill: var(--muted); }
       .branch { stroke: var(--line); stroke-width: 2; }
       .node { fill: var(--bg); stroke: var(--fg); stroke-width: 2; }
+      .mobile-identity { display: none; }
+      @media (max-width: 600px) {
+        .desktop-identity, .project-graph { display: none; }
+        .mobile-identity { display: inline; }
+      }
       @media (prefers-reduced-motion: reduce) { .flow-animation { display: none; } }
     </style>
   </defs>
@@ -31,15 +36,26 @@
     <path fill="var(--bg)" d="M0 0h1280v407.273H0z"/>
 
     <!-- Editorial identity: the name carries the hierarchy, with no UI chrome. -->
-    <g class="sans">
+    <g class="sans desktop-identity">
       <text x="52" y="55" class="mono muted" font-size="18" letter-spacing="1"><tspan fill="var(--accent)">/</tspan> melroy89</text>
-      <text x="46" y="165" class="ink" font-size="112" font-weight="700" letter-spacing="-5">Melroy</text>
+      <text x="46" y="165" class="ink" font-size="112" font-weight="700" letter-spacing="-3">Melroy</text>
       <text x="52" y="223" class="ink" font-size="48" letter-spacing="-1.8">van den Berg</text>
-      <text x="54" y="274" class="muted" font-size="23">Open-source Developer. Maintainer. Tinkerer.</text>
+      <text x="54" y="274" class="muted" font-size="23">Developer. Maintainer. Tinkerer.</text>
       <path d="M54 323H550" stroke="var(--line)" stroke-opacity=".65"/>
       <text x="54" y="357" class="mono ink" font-size="20.2"><tspan>Open source</tspan><tspan dx="16" class="muted">/</tspan><tspan dx="16">Linux</tspan><tspan dx="16" class="muted">/</tspan><tspan dx="16">Fediverse</tspan></text>
     </g>
 
+    <!-- A simpler identity keeps text legible when embedded at narrow widths. -->
+    <g class="sans mobile-identity">
+      <text x="52" y="58" class="mono muted" font-size="32"><tspan fill="var(--accent)">/</tspan> melroy89</text>
+      <text x="46" y="193" class="ink" font-size="144" font-weight="700" letter-spacing="-3">Melroy</text>
+      <text x="52" y="267" class="ink" font-size="64" letter-spacing="-1.8">van den Berg</text>
+      <text x="54" y="332" class="muted" font-size="40">Developer. Maintainer.</text>
+      <text x="54" y="383" class="muted" font-size="40">Tinkerer.</text>
+      <use href="#monogram" stroke="var(--accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g class="project-graph">
     <!-- The M is itself a branch: a personal mark with a commit-graph structure. -->
     <g class="branch" stroke-linecap="round" stroke-linejoin="round">
       <path d="M744-20V52Q744 80 772 80H810Q838 80 838 108V122"/>
@@ -160,12 +176,13 @@
       </circle>
     </g>
     <g class="sans ink" font-size="20" font-weight="600">
-      <text x="1100" y="103" text-anchor="middle">Mbin</text>
-      <text x="1144" y="260" text-anchor="middle">WineGUI</text>
-      <text x="780" y="346" text-anchor="middle">Fastify MariaDB</text>
-      <text x="766" y="47">BCH Explorer</text>
-      <text x="790" y="244" text-anchor="end">LibreWeb</text>
-      <text x="1216" y="382" text-anchor="end">Angie Guardian</text>
+      <text x="1100" y="104" text-anchor="middle">Mbin</text>
+      <text x="1144" y="256" text-anchor="middle">WineGUI</text>
+      <text x="780" y="348" text-anchor="middle">Fastify MariaDB</text>
+      <text x="770" y="47">BCH Explorer</text>
+      <text x="790" y="246" text-anchor="end">LibreWeb</text>
+      <text x="1216" y="384" text-anchor="end">Angie Guardian</text>
+    </g>
     </g>
     <rect x=".5" y=".5" width="1279" height="406.273" rx="7.5" stroke="var(--fg)" stroke-opacity=".08"/>
   </g>
